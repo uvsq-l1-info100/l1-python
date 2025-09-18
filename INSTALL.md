@@ -5,7 +5,7 @@ Python est un langage de programmation *interprété*.
 Pour exécuter un programme écrit dans ce langage, il faut disposer d'un *interpréteur Python* ainsi que de certaines bibliothèques installées sur la machine.
 
 Nous utiliserons la version 3 de Python.
-En 2025, la [version 3.13](https://docs.python.org/fr/3.11/whatsnew/3.11.html) est la plus récente disponible sur la plupart des architectures de machine.
+En 2025, la [version 3.13](https://docs.python.org/fr/3.13/whatsnew/3.13.html) est la plus récente disponible sur la plupart des architectures de machine.
 
 Pour simplifier l'installation des outils nécessaires, nous allons utiliser une *distribution Python*.
 Cette dernière regroupe des outils (interpréteur Python, gestionnaire de paquets, …) et des bibliothèques (numpy, …).
