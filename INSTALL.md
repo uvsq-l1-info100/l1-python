@@ -115,11 +115,6 @@ Nous ne détaillons pas ici la procédure d'installation car elle ne présente p
 
 > ⚠️ **_Installation avancée (optionelle)_** Si vous souhaitez utiliser _git/github_, suivez les étapes d'installation se trouvant dans [INSTALL_ADV.md](INSTALL_ADV.md#install_git).
 
-## Récupérer le projet localement
-1. Télécharger, avec votre navigateur, une archive du l'environnement de TD à partir de https://github.com/uvsq-info/l1-python.
-    * pour cela, cliquer sur le bouton vert _<> Code_ et sélectionner _Download ZIP_
-1. Décompresser l'archive dans le répertoire de votre choix.
-1. Ouvrir ensuite dans VSCode le répertoire créé ci-dessus
 
 ## Finaliser l'installation de Visual Studio Code
 ### Choisir le *shell* de commande par défaut
@@ -134,7 +129,7 @@ Cette étape précise à VSCode quel *shell* utiliser pour le terminal.
 > ⚠️ **_Installation avancée (optionelle)_** Si vous souhaitez isoler l'environnement Python avec un environnement virtuel, suivez les étapes d'installation se trouvant dans [INSTALL_ADV.md](INSTALL_ADV.md#install_virt).
 
 ### Finaliser l'installation de VSCode
-1. Dans la liste "EXPLORER" à gauche de l'écran, sélectionner le fichier "examples/hello/hello.py"
+1. Créer un répertoire TD et un sous-répertoire TD1 à l'endroit de votre choix dans votre dossier personnel. Dans la liste "EXPLORER" à gauche de l'écran, sélectionner le fichier "TD/TD1/hello.py". Un exemple d'un tel fichier est fourni sur le site du cours.
     * accepter l'installation de l'extension [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 1. Sélectionner l'interpréteur Python 3.X
     * cliquer en bas à gauche dans la barre d'état ou *Ctrl+Shift+P* puis sélectionner "Python: Select Interpreter"
@@ -143,9 +138,6 @@ Cette étape précise à VSCode quel *shell* utiliser pour le terminal.
     1. Ouvrir la palette de commande (*Ctrl+Shift+P*)
     1. Sélectionner la commande "Python: Select Linter"
     1. Choisir `flake8` dans la liste
-
-## Utiliser le projet
-Pour utiliser le projet, consulter le [README.md](README.md) du projet.
 
 ## Dépannage des problèmes d'installation
 ### Le *shell* est `zsh`
@@ -160,6 +152,3 @@ Une solution est décrite dans [Installing miniconda with zsh](https://stackover
     cd ~/miniconda3/bin && conda update conda
     conda init zsh
     ```
-
-### Guide pour les anciennes versions du cartable numérique
-Le guide d'utilisation est se trouve dans [CARTABLE_NUM.md](CARTABLE_NUM.md).
