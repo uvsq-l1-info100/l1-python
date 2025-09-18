@@ -113,8 +113,6 @@ Il est un bon compromis entre fonctionnalités et complexité tout en étant dis
 
 Nous ne détaillons pas ici la procédure d'installation car elle ne présente pas de difficulté majeure.
 
-> ⚠️ **_Installation avancée (optionelle)_** Si vous souhaitez utiliser _git/github_, suivez les étapes d'installation se trouvant dans [INSTALL_ADV.md](INSTALL_ADV.md#install_git).
-
 
 ## Finaliser l'installation de Visual Studio Code
 ### Choisir le *shell* de commande par défaut
@@ -125,8 +123,6 @@ Cette étape précise à VSCode quel *shell* utiliser pour le terminal.
 1. Sélectionner
     * "Command Prompt" sous Windows
     * "bash" sous Mac OS ou Linux
-
-> ⚠️ **_Installation avancée (optionelle)_** Si vous souhaitez isoler l'environnement Python avec un environnement virtuel, suivez les étapes d'installation se trouvant dans [INSTALL_ADV.md](INSTALL_ADV.md#install_virt).
 
 ### Finaliser l'installation de VSCode
 1. Créer un répertoire TD et un sous-répertoire TD1 à l'endroit de votre choix dans votre dossier personnel. Dans la liste "EXPLORER" à gauche de l'écran, sélectionner le fichier "TD/TD1/hello.py". Un exemple d'un tel fichier est fourni sur le site du cours.
