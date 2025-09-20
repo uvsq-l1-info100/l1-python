@@ -1,6 +1,9 @@
+
+#TD1: Prise en main de Python
+
 * * *
 
-1.Vérification de l'installation de l'environnement de programmation[¶](#1.V%C3%A9rification-de-l'installation-de-l'environnement-de-programmation)
+##1.Vérification de l'installation de l'environnement de programmation
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [INSTALL.md](https://github.com/uvsq-l1-info100/l1-python/blob/main/INSTALL.md) si vous utilisez votre ordinateur personnel. Si vous rencontrez des problèmes, appelez un enseignant. Sur votre machine, créez un répertoire local, nommé TD, dans lequel vous sauvegardez tout le travail. Dans ce répertoire, créez le sous-répertoire TD1. Il contiendra un fichier hello.py comme sur le site du cours. Toutes les manipulations de cette section sont à effectuer dans Visual Code Studio. Il faut donc lancer VSCode et ouvrir le répertoire local pour les TD. Si vous n'arrivez pas à travailler sur Visual Code Studio, vous pouvez travailler en utilisant un [notebook en ligne](https://colab.research.google.com/notebooks/intro.ipynb). Le notebook en ligne est aussi une solution pour programmer depuis chez vous si vous n'avez pas installé l'environnement correctement. Mais la solution privilégiée reste d'installer l'environnement.
@@ -13,7 +16,7 @@ Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [IN
 
 * * *
 
-2.Variables[¶](#2.Utilisation-du-notebook-Python)
+##2.Variables
 -------------------------------------------------
 
 1.  Affectez le résultat de l'expression `1 + 1` à une variable notée `a`. Affichez maintenant la valeur de la variable `a`. Nous rappelons que vous pouvez utiliser la _fonction native_ `print()`. L'ensemble de ces fonctions est [disponible ici](https://docs.python.org/fr/3.5/library/functions.html).
@@ -21,13 +24,13 @@ Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [IN
 2.  Augmentez de 1 la valeur de `a`. L'expression doit donner le bon résultat quelle que soit la valeur de la variable. Vérifiez en affichant la valeur de `a`.
 
 3.  Ré-évaluez toutes les cellules où vous avez affiché la valeur de `a`. Que remarquez-vous? On voit ici que ce qui compte dans le notebook est _l'ordre d'évaluation_ et non pas _l'ordre d'apparition_ des cellules. Ce comportement est source d'erreur, il faut donc bien y faire attention.
-    
+
 
 4.  Sans écrire de code supplémentaire, augmentez encore de 1 la valeur de `a`, et vérifiez que ça a bien fonctionné.
-    
+
 
 5.  Affectez la valeur 5 à la variable `a` et la valeur 2 à la variable `b`, puis afficher les 2 valeurs avec l'expression `print(a, b)`.
-    
+
 
 6.  Ecrivez le code qui permet d'échanger la valeur des variables `a` et `b`. Puis affichez leurs valeurs.
 
@@ -39,7 +42,7 @@ Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [IN
 
 * * *
 
-3.Types de données[¶](#3.Types-de-donn%C3%A9es)
+3.Types de données
 -----------------------------------------------
 
 En Python, toute variable ou expression possède un _type_ qui définit, entre autres, les opérations que l'on peut lui appliquer. Parmi les types natifs on peut citer les nombres entiers, les nombres flottants, les chaînes de caractères (string en anglais) et les booléens (Vrai ou Faux).
@@ -67,7 +70,7 @@ Ce sont des types avancés, qui permettent de construire des structures de donn�
 
 3.  Maintenant, affectez une valeur à une variable `x`, et écrivez le code qui affiche, par exemple, `le type de x est <class 'int'>` si jamais la valeur stockée dans `x` est un entier.
 
-### 3.1 Type numérique entier[¶](#3.1-Type-num%C3%A9rique-entier)
+### 3.1 Type numérique entier
 
 1.  Affectez une valeur entière à une variable `v`.
 
@@ -93,7 +96,7 @@ Ecrire l'expression qui donne le dernier chiffre du nombre référencé par la v
 
 Ecrire l'expression qui donne l'avant-dernier chiffre du nombre référencé par la variable `a`.
 
-### 3.2 Nombres flottants[¶](#3.2-Nombres-flottants)
+### 3.2 Nombres flottants
 
 1.  L'expression `0.2 + 0.4` est-elle égale, supérieure ou inférieure à `0.6`?
 
@@ -105,7 +108,7 @@ Ecrire l'expression qui donne l'avant-dernier chiffre du nombre référencé par
 
 **Note**: les nombres flottants que l'on manipule sont en fait une approximation de ces nombres. Pour plus de détails, vous pouvez consulter [cet article](https://docs.python.org/fr/3.8/tutorial/floatingpoint.html).
 
-### 3.3 Chaînes de caractères[¶](#3.3-Cha%C3%AEnes-de-caract%C3%A8res)
+### 3.3 Chaînes de caractères
 
 1.  Affectez les variables `a` à "hello" et `b` à 'world'. Affichez le résultat de l'expression `a + b`, et de `b + a`
 
@@ -123,7 +126,7 @@ Vous pouvez voir la liste des méthodes associées aux chaînes de caractères (
 
 6.  Que vaut `a > b`? Quelle est la signification de cette comparaison?
 
-### 3.4 Conversions[¶](#3.4-Conversions)
+### 3.4 Conversions
 
 1.  Affectez `a` à '64'. Devinez ce que vaut `a * 2` avant de l'afficher.
 
@@ -137,7 +140,7 @@ Vous pouvez voir la liste des méthodes associées aux chaînes de caractères (
 
 * * *
 
-Exercices supplémentaires[¶](#Exercices-suppl%C3%A9mentaires)
+Exercices supplémentaires
 -------------------------------------------------------------
 
 1.  Parmi les chaînes de caractères suivantes, lesquelles peuvent être des noms de variable?
@@ -173,9 +176,9 @@ Et parmi les noms corrects, lesquels ne sont pas recommandés (voir la [PEP8](ht
     *   h) 3 \* 4 / 6 + 6
 
 5.  Saisir, Calculer et Afficher
-    
+
     *   (1) Ecrire un code qui permet de faire les tâches suivantes :
-        
+
         *   a) Saisir deux variables, a et b, de type entier.
         *   b) Calculer la somme de ces deux variables.
         *   c) Affecter le résultat dans la variable « Somme ».
@@ -183,13 +186,13 @@ Et parmi les noms corrects, lesquels ne sont pas recommandés (voir la [PEP8](ht
         *   e) Affecter le résultat dans la variable « Quotient ».
         *   f) Afficher les valeurs des variables « Somme » et « Quotient ». Le message doit être sous la forme suivante «La somme de 3 et 1 est 4 et le quotient de 3 sur 1 est 3 »
     *   (2) Quel est le nombre total de variables utilisées pour cet algorithme ?
-        
+
     *   (3) On veut, maintenant, minimiser le nombre de variables utilisées par le code précédent.
-        
+
         *   a) Quel est le nombre maximal de variables qu’on peut supprimer ?
         *   b) Quel est le nombre minimal de variables qu’on peut supprimer ?
     *   (4) Ecrire le code correspondant à 3.a.
-        
+
 
 6.  Ecrire un code qui permet de calculer le diamètre, le périmètre et la surface d’un cercle. Pour ce faire nous allons procéder comme suit :
     *   a) Déclarer la variable constante 𝝅 et la variable Ray contenant la valeur 10.
