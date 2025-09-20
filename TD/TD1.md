@@ -1,9 +1,9 @@
 
 #TD1: Prise en main de Python
 
-* * *
 
-##1.Vérification de l'installation de l'environnement de programmation
+
+## 1.Vérification de l'installation de l'environnement de programmation
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [INSTALL.md](https://github.com/uvsq-l1-info100/l1-python/blob/main/INSTALL.md) si vous utilisez votre ordinateur personnel. Si vous rencontrez des problèmes, appelez un enseignant. Sur votre machine, créez un répertoire local, nommé TD, dans lequel vous sauvegardez tout le travail. Dans ce répertoire, créez le sous-répertoire TD1. Il contiendra un fichier hello.py comme sur le site du cours. Toutes les manipulations de cette section sont à effectuer dans Visual Code Studio. Il faut donc lancer VSCode et ouvrir le répertoire local pour les TD. Si vous n'arrivez pas à travailler sur Visual Code Studio, vous pouvez travailler en utilisant un [notebook en ligne](https://colab.research.google.com/notebooks/intro.ipynb). Le notebook en ligne est aussi une solution pour programmer depuis chez vous si vous n'avez pas installé l'environnement correctement. Mais la solution privilégiée reste d'installer l'environnement.
@@ -14,9 +14,8 @@ Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [IN
 
 3.  Cliquer sur le triangle gris en haut à droite de la fenêtre de l'éditeur Python. Vous devriez voir le message "hello world" s'afficher dans la console.
 
-* * *
 
-##2.Variables
+## 2.Variables
 -------------------------------------------------
 
 1.  Affectez le résultat de l'expression `1 + 1` à une variable notée `a`. Affichez maintenant la valeur de la variable `a`. Nous rappelons que vous pouvez utiliser la _fonction native_ `print()`. L'ensemble de ces fonctions est [disponible ici](https://docs.python.org/fr/3.5/library/functions.html).
