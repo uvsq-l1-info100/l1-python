@@ -1,5 +1,4 @@
-
-#TD1: Prise en main de Python
+# TD1:  Prise en main de Python
 
 
 
@@ -41,7 +40,7 @@ Avant de débuter ce td, vous devez avoir suivi la procédure d'installation [IN
 
 * * *
 
-3.Types de données
+# 3.Types de données
 -----------------------------------------------
 
 En Python, toute variable ou expression possède un _type_ qui définit, entre autres, les opérations que l'on peut lui appliquer. Parmi les types natifs on peut citer les nombres entiers, les nombres flottants, les chaînes de caractères (string en anglais) et les booléens (Vrai ou Faux).
@@ -139,7 +138,7 @@ Vous pouvez voir la liste des méthodes associées aux chaînes de caractères (
 
 * * *
 
-Exercices supplémentaires
+## 4.Exercices supplémentaires
 -------------------------------------------------------------
 
 1.  Parmi les chaînes de caractères suivantes, lesquelles peuvent être des noms de variable?
