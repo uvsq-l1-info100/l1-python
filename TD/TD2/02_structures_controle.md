@@ -233,7 +233,7 @@ Même exercice mais cette fois la sortie est
   ****
  *****
 ******
-
+```
 
 **Exercice 24:**
 
