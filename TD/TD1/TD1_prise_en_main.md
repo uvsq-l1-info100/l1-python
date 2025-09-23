@@ -22,20 +22,13 @@ Vous pouvez lancer Visual Studio Code en allant dans Applications - Développeme
 
 2.  Augmentez de 1 la valeur de `a`. L'expression doit donner le bon résultat quelle que soit la valeur de la variable. Vérifiez en affichant la valeur de `a`.
 
-3.  Ré-évaluez toutes les cellules où vous avez affiché la valeur de `a`. Que remarquez-vous? On voit ici que ce qui compte dans le notebook est _l'ordre d'évaluation_ et non pas _l'ordre d'apparition_ des cellules. Ce comportement est source d'erreur, il faut donc bien y faire attention.
+3.  Affectez la valeur 5 à la variable `a` et la valeur 2 à la variable `b`, puis afficher les 2 valeurs avec l'expression `print(a, b)`.
 
+4.  Ecrivez le code qui permet d'échanger la valeur des variables `a` et `b`. Puis affichez leurs valeurs.
 
-4.  Sans écrire de code supplémentaire, augmentez encore de 1 la valeur de `a`, et vérifiez que ça a bien fonctionné.
+5.  Pour enrichir l'affichage, recopiez l'expression `print("a vaut", a, "et b vaut", b)`.
 
-
-5.  Affectez la valeur 5 à la variable `a` et la valeur 2 à la variable `b`, puis afficher les 2 valeurs avec l'expression `print(a, b)`.
-
-
-6.  Ecrivez le code qui permet d'échanger la valeur des variables `a` et `b`. Puis affichez leurs valeurs.
-
-7.  Pour enrichir l'affichage, recopiez l'expression `print("a vaut", a, "et b vaut", b)`.
-
-8.  Recopiez l'affectation suivante `a = "hello world"`, puis affichez la valeur de `a` et le type de la variable.
+6.  Recopiez l'affectation suivante `a = "hello world"`, puis affichez la valeur de `a` et le type de la variable.
 
 **Note**: la variable `a` contenait un entier, et maintenant une chaîne de caractères. En Python les variables ont un _type dynamique_ contrairement au type statique où le type des variables est défini une fois pour toutes. De plus ce typage est _implicite_, c'est-à-dire qu'il est déterminé par les objets auxquels les variables font référence sans avoir besoin de l'écrire explicitement.
 
