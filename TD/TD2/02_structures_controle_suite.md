@@ -26,11 +26,17 @@
     -Longueur minimale de 6 caractères.
     -Longueur maximale de 16 caractères.
 
-* 1. Faites l'exercice en utilisant seulement la syntaxe vue en cours.     
+1. Faites l'exercice en utilisant seulement la syntaxe vue en cours.     
 
-* 2. Proposez en deuxième programme en utilisant cette fois la fonction *re.search()* du module *re* en Python. Cette fonction est utilisée pour rechercher un motif (expression régulière) dans une chaîne de caractères. Voici la syntaxe simplifiée de re.search() : re.search(pattern, string)
+2. Proposez en deuxième programme en utilisant cette fois la fonction *re.search()* du module *re* en Python. Cette fonction est utilisée pour rechercher un motif (expression régulière) dans une chaîne de caractères. Voici la syntaxe simplifiée de re.search() : re.search(pattern, string)
 
     -pattern : C'est le motif (expression régulière) que vous souhaitez rechercher dans la chaîne de caractères.
     -string : C'est la chaîne de caractères dans laquelle vous souhaitez effectuer la recherche.
 
 La fonction re.search() renvoie un objet de correspondance (match object) si le motif est trouvé dans la chaîne de caractères. Si le motif n'est pas trouvé, elle renvoie None.    
+
+**Exercice 6 :** Écrivez un premier programme qui permet de chiffrer une chaîne de caractères en utilisant un décalage de x lettres vers la droite dans l'ordre de l'alphabet. Attention, x est un entier dont les valeurs sont comprises entre 0 et 25.
+
+    -Exemple : Si on fait un décalage de 3, le mot "bonjour" devient "erqmrxu"
+
+Dans un deuxième temps, écrivez également le programme qui déchiffre le mot, en retrouvant le mot initial à partir d'un mot chiffré et de l'entier utilisé pour le décalage. 
