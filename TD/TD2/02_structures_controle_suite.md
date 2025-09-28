@@ -37,6 +37,6 @@ La fonction re.search() renvoie un objet de correspondance (match object) si le 
 
 **Exercice 6 :** Écrivez un premier programme qui permet de chiffrer une chaîne de caractères en utilisant un décalage de x lettres vers la droite dans l'ordre de l'alphabet. Attention, x est un entier dont les valeurs sont comprises entre 0 et 25.
 
-    -Exemple : Si on fait un décalage de 3, le mot "bonjour" devient "erqmrxu"
+    Exemple : Si on fait un décalage de 3, le mot "bonjour" devient "erqmrxu"
 
-Dans un deuxième temps, écrivez également le programme qui déchiffre le mot, en retrouvant le mot initial à partir d'un mot chiffré et de l'entier utilisé pour le décalage. 
+Dans un deuxième temps, écrivez également le programme qui déchiffre le mot, en retrouvant le mot initial à partir d'un mot chiffré et de l'entier utilisé pour le décalage.
