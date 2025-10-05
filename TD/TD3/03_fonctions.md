@@ -1,8 +1,6 @@
 # Instructions Générales
 
-Ce TD doit être réalisé en créant un fichier td3.py, que vous éditerez dans VSCode. Vous ne remplirez pas les cellules de ce notebook, mais vous les copierez progressivement dans votre fichier afin de les compléter.
-
-Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage. Vous utiliserez les outils de débogage disponibles (comme flake8, mypy, le débogueur intégré à VSCode, PythonTutor, etc.) pour corriger vos erreurs.
+Ce TD doit être réalisé en créant un fichier td3.py, que vous éditerez dans VSCode. Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage. 
 
 # Gestion du temps
 
@@ -32,13 +30,13 @@ print(tempsEnSeconde(temps))
 def secondeEnTemps(seconde):
     """Renvoie le temps (jour, heure, minute, seconde) qui correspond au nombre de seconde passé en argument"""
     pass
-    
+
 temps = secondeEnTemps(100000)
 print(temps[0],"jours",temps[1],"heures",temps[2],"minutes",temps[3],"secondes")
 ```
 
 Créer une fonction d'affichage d'un temps `afficheTemps`. Attention, les mots jour, heure et seconde doivent être au pluriel s'il y en a plusieurs. S'il y en a zéro, ils ne doivent pas apparaître.
-`print(message, end="")` permet de ne pas sauter une ligne après un print. 
+`print(message, end="")` permet de ne pas sauter une ligne après un print.
 Vous pouvez écrire une fonction qui affiche un mot au pluriel ou non, appelée ensuite plusieurs fois par `afficheTemps` pour simplifier votre code.
 
 
@@ -48,7 +46,7 @@ Vous pouvez écrire une fonction qui affiche un mot au pluriel ou non, appelée 
 
 def afficheTemps(temps):
     pass
-    
+
 afficheTemps((1,0,14,23))
 ```
 
@@ -56,7 +54,7 @@ Ecrire une fonction qui demande à l'utilisateur de rentrer un nombre de jours, 
 de secondes et qui renvoie un temps. Attention, si l'entrée utilisateur n'est pas correcte, par exemple 80 minutes,
 afficher un message d'erreur et s'arrêter.
 
-(Optionnel) Au lieu d'arêter le programme, demander de rentrer une nouvelle valeur, tant que 
+(Optionnel) Au lieu d'arêter le programme, demander de rentrer une nouvelle valeur, tant que
 ce n'est pas une valeur correcte.
 
 
@@ -96,11 +94,11 @@ afficheTemps(proportionTemps((2,0,36,0),0.2))
 
 ```
 
-On veut maintenant afficher un temps sous forme de date, en supposant 
+On veut maintenant afficher un temps sous forme de date, en supposant
 que le temps 0 est le 1 janvier 1970 à 00:00:00.
 
 * Implémenter une fonction `tempsEnDate`qui donne la date sous la forme (année, jour, heure, minute, seconde).
-* Implémenter la fonction `afficheDate`qui affiche la date. 
+* Implémenter la fonction `afficheDate`qui affiche la date.
 * (Optionnel) Gérer également les mois.
 
 
@@ -110,7 +108,7 @@ def tempsEnDate(temps):
 
 def afficheDate(date = -1):
     pass
-    
+
 temps = secondeEnTemps(1000000000)
 afficheTemps(temps)
 afficheDate(tempsEnDate(temps))
@@ -118,8 +116,8 @@ afficheDate()
 ```
 
 Il existe des fonctions dans la librairie `time` pour la gestion du temps. En particulier, il existe
-une fonction `time` qui donne le temps écoulé depuis 1970 en secondes. 
-La trouver avec la [documentation python](https://docs.python.org/fr/3/library/time.html#module-time) et la tester en utilisant `afficheDate`. 
+une fonction `time` qui donne le temps écoulé depuis 1970 en secondes.
+La trouver avec la [documentation python](https://docs.python.org/fr/3/library/time.html#module-time) et la tester en utilisant `afficheDate`.
 Tester de la même manière la fonction `time.gmtime` qui réalise une tâche similaire à `tempsEnDate`.
 Que constatez vous ?
 
@@ -135,7 +133,7 @@ Donner un code qui prend un nombre de jours et affiche toutes les années bisext
 ```python
 def bisextile(jour):
     pass
-        
+
 bisextile(20000)
 ```
 
@@ -148,7 +146,7 @@ def nombreBisextile(jour):
 
 def tempsEnDateBisextile(temps):
     pass
-   
+
 temps = secondeEnTemps(1000000000)
 afficheTemps(temps)
 afficheDate(tempsEnDateBisextile(temps))
