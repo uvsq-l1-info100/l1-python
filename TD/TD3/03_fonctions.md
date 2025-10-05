@@ -1,6 +1,6 @@
 # Instructions Générales
 
-Ce TD doit être réalisé en créant un fichier td3.py, que vous éditerez dans VSCode. Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage. 
+Ce TD doit être réalisé en créant un fichier td3.py, que vous éditerez dans VSCode. Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage.
 
 # Gestion du temps
 
@@ -155,11 +155,6 @@ afficheDate(tempsEnDateBisextile(temps))
 Ajouter des valeurs par défaut dans le code de `afficheDate` afin de pouvoir ommettre
 l'argument de ces fonctions. Dans ce cas là, on affichera la date actuelle en utilisant la fonction `time`.
 
-On va maintenant inspecter notre code pour améliorer sa qualité:
-
-* Regarder tous les warnings donnés par flake8 et essayer de les régler.
-* Utiliser le debugger (F5) pour étudier le fonctionnement de votre fonction nombreBisextile.
-* Mettre les annotations de type des arguments et du retour de la fonction pour nombreBisextile et une autre fonction de votre choix. Vérifier avec mypy que tout fonctionne bien.
 
 Donner une fonction qui vérifie la charge horaire d'un employé, donnée sous forme d'une liste de temps travaillé chaque semaine dans un mois. Il ne faut pas dépasser 48h par semaine et 140h par mois (qu'on considère ici de 4 semaines).
 
