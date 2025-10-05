@@ -122,10 +122,6 @@ Tester de la même manière la fonction `time.gmtime` qui réalise une tâche si
 Que constatez vous ?
 
 
-```python
-#tester ici les fonctions de la librairie time
-```
-
 Attention, tous les 4 ans les années sont bisextiles (un jour de plus) sauf les multiples de 100 qui ne sont pas des multiples de 400.
 Donner un code qui prend un nombre de jours et affiche toutes les années bisextiles depuis 1 janvier 1970 à 00:00:00 jusqu'à la fin de ces jours.
 
