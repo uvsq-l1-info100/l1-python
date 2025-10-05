@@ -1,8 +1,11 @@
-# Instructions Générales
+# TD 5: Fonctions en Python
+
+
+## Instructions Générales
 
 Ce TD doit être réalisé en créant un fichier td3.py, que vous éditerez dans VSCode. Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage.
 
-# Gestion du temps
+## Gestion du temps
 
 Nous allons créer un petit logiciel de gestion du temps et des dates.
 Pour cela nous aurons besoin de créer un certain nombre de fonctions utilitaires.
