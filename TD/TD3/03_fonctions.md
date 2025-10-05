@@ -12,8 +12,8 @@ C'est un tuple de 4 éléments. Par exemple (4, 3, 13, 20) correspond à 4 jours
 Si on a une variable temps = (4, 3, 13, 20), pour accéder au premier élément on fait temps\[0\] ce qui donne 4,
 le nombre de jours.
 
-Créer la fonction qui prend comme argument le temps et renvoie le nombre de seconde total correspondant à ce temps.
-Créer la fonction qui prend un nombre de secondes et renvoie le temps correspondant.
+1. Créer la fonction qui prend comme argument le temps et renvoie le nombre de seconde total correspondant à ce temps.
+2. Créer la fonction qui prend un nombre de secondes et renvoie le temps correspondant.
 
 
 ```python
@@ -50,7 +50,7 @@ def afficheTemps(temps):
 afficheTemps((1,0,14,23))
 ```
 
-Ecrire une fonction qui demande à l'utilisateur de rentrer un nombre de jours, d'heures, de minutes et
+3. Ecrire une fonction qui demande à l'utilisateur de rentrer un nombre de jours, d'heures, de minutes et
 de secondes et qui renvoie un temps. Attention, si l'entrée utilisateur n'est pas correcte, par exemple 80 minutes,
 afficher un message d'erreur et s'arrêter.
 
@@ -65,7 +65,7 @@ def demandeTemps():
 afficheTemps(demandeTemps())
 ```
 
-On veut être capable d'additionner deux temps. Donner une fonction qui fait ce calcul,
+4. On veut être capable d'additionner deux temps. Donner une fonction qui fait ce calcul,
 en utilisant les fonctions précédentes.
 
 
@@ -76,7 +76,7 @@ def sommeTemps(temps1,temps2):
 sommeTemps((2,3,4,25),(5,22,57,1))
 ```
 
-On veut maintenant calculer un pourcentage d'un temps. Par exemple, 20% de
+5. On veut maintenant calculer un pourcentage d'un temps. Par exemple, 20% de
 2 jours et 36 minutes correspond à 9 heures, 43 minutes et 12 secondes.
 
 Implémenter la fonction `proportionTemps` puis appeler cette fonction en échangeant l'ordre des arguments mais en les nommant.
@@ -90,11 +90,7 @@ afficheTemps(proportionTemps((2,0,36,0),0.2))
 ```
 
 
-```python
-
-```
-
-On veut maintenant afficher un temps sous forme de date, en supposant
+6. On veut maintenant afficher un temps sous forme de date, en supposant
 que le temps 0 est le 1 janvier 1970 à 00:00:00.
 
 * Implémenter une fonction `tempsEnDate`qui donne la date sous la forme (année, jour, heure, minute, seconde).
@@ -115,14 +111,14 @@ afficheDate(tempsEnDate(temps))
 afficheDate()
 ```
 
-Il existe des fonctions dans la librairie `time` pour la gestion du temps. En particulier, il existe
+7. Il existe des fonctions dans la librairie `time` pour la gestion du temps. En particulier, il existe
 une fonction `time` qui donne le temps écoulé depuis 1970 en secondes.
 La trouver avec la [documentation python](https://docs.python.org/fr/3/library/time.html#module-time) et la tester en utilisant `afficheDate`.
 Tester de la même manière la fonction `time.gmtime` qui réalise une tâche similaire à `tempsEnDate`.
 Que constatez vous ?
 
 
-Attention, tous les 4 ans les années sont bisextiles (un jour de plus) sauf les multiples de 100 qui ne sont pas des multiples de 400.
+8. Attention, tous les 4 ans les années sont bisextiles (un jour de plus) sauf les multiples de 100 qui ne sont pas des multiples de 400.
 Donner un code qui prend un nombre de jours et affiche toutes les années bisextiles depuis 1 janvier 1970 à 00:00:00 jusqu'à la fin de ces jours.
 
 
@@ -148,11 +144,11 @@ afficheTemps(temps)
 afficheDate(tempsEnDateBisextile(temps))
 ```
 
-Ajouter des valeurs par défaut dans le code de `afficheDate` afin de pouvoir ommettre
+9. Ajouter des valeurs par défaut dans le code de `afficheDate` afin de pouvoir ommettre
 l'argument de ces fonctions. Dans ce cas là, on affichera la date actuelle en utilisant la fonction `time`.
 
 
-Donner une fonction qui vérifie la charge horaire d'un employé, donnée sous forme d'une liste de temps travaillé chaque semaine dans un mois. Il ne faut pas dépasser 48h par semaine et 140h par mois (qu'on considère ici de 4 semaines).
+10. Donner une fonction qui vérifie la charge horaire d'un employé, donnée sous forme d'une liste de temps travaillé chaque semaine dans un mois. Il ne faut pas dépasser 48h par semaine et 140h par mois (qu'on considère ici de 4 semaines).
 
 (Optionnel) S'adapter à une liste qui peut contenir plusieurs mois.
 
