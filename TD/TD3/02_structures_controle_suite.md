@@ -5,7 +5,6 @@
 
 
 
-
 **Exercice 2 :**  L'exemple précédent exécute la boucle cinq fois. Si vous souhaitez que l'utilisateur décide s'il souhaite prendre une autre question, vous pouvez proposer une confirmation à l'utilisateur (en tapant 'Y' pour continuer).
 
 
