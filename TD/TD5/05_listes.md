@@ -1,4 +1,4 @@
-# TD 4: Listes
+# TD 5: Listes
 
 ---
 
@@ -9,87 +9,42 @@ Dans cette partie, il faut écrire les réponses directement dans le notebook. E
 1. Créer la liste `3, 5, 10`, l'affecter à une variable, puis l'afficher.
 
 
-```python
-
-```
-
 2. Ajouter ensuite 12 et 17 à la fin puis afficher à nouveau la liste.
 
-
-```python
-
-```
 
 3. Changer le 10 en -7.
 
 
-```python
-
-```
-
 4. Avec une boucle `for`, écrire le double de chaque élément de la liste. Cela doit afficher `[6, 10, -14, 24, 34]`. La liste doit être modifiée.
 
-
-```python
-
-```
 
 5. A l'aide d'une boucle `for`, ajouter  la valeur `i` à l'élément d'indice `i` de la liste. Cela doit afficher `[6, 11, -12, 27, 38]`. La liste doit être modifiée.
 
 
-```python
-
-```
-
 6. Tirer 10 nombres à 2 chiffres au hasard et les mettre dans une nouvelle liste (vide au départ), puis afficher la somme des entiers de la liste et le plus grand de ces entiers.
 
 
-```python
-
-```
 
 7. A partir de la liste choisie au hasard, créer une liste qui contient les éléments pairs et une deuxième liste qui contient les éléments impairs.
 
 
-```python
-
-```
-
 8. Trier la liste choisie au hasard par ordre croissant en modifiant la liste.
 
-
-```python
-
-```
 
 9. Supprimer le plus petit et le plus grand élément de la liste triée.
 
 
-```python
-
-```
-
 10. Créer la liste des entiers de 1 jusqu'à 52. Ces entiers représentent les cartes d'un paquet de 52 cartes.
 
 
-```python
-
-```
-
- 11. Couper le jeu de carte revient à choisir un indice `i` entre 0 et 51, et à passer toutes les cartes allant des indices 0 à i-1 à la suite des cartes qui vont des indices i à 51. Ecrire le code qui effectue une coupe choisie au hasard.
-
-
-```python
-
-```
-
+11. Couper le jeu de carte revient à choisir un indice `i` entre 0 et 51, et à passer toutes les cartes allant des indices 0 à i-1 à la suite des cartes qui vont des indices i à 51. Ecrire le code qui effectue une coupe choisie au hasard.
 ---
 
 ## 2. Problème de Syracuse
 
 Cette partie est à traiter dans un script que vous pouvez appeler, par exemple, `syracuse.py`.
 
-En partant d'un entier `n` de départ, on définit une suite d'entiers en obtenant chaque nouveau terme à partir du précédent soit en le divisant par 2 s'il est pair, soit en le multipliant par 3 et en ajoutant 1 s'il est impair. 
+En partant d'un entier `n` de départ, on définit une suite d'entiers en obtenant chaque nouveau terme à partir du précédent soit en le divisant par 2 s'il est pair, soit en le multipliant par 3 et en ajoutant 1 s'il est impair.
 
 1. Sans écrire de programme, calculer les premières valeurs de la suite en chosissant `n = 3`.
 
@@ -104,7 +59,7 @@ def syracuse(n):
 print(syracuse(3))
 ```
 
-3. La conjecture de Collatz (ou problème de Syracuse) affirme que, quel que soit l’entier `n` que l’on choisisse au départ, on finit toujours par arriver à 1 (ce résultat est une *conjecture*, c'est-à-dire qu'il n'a pas été démontré, mais qu'il n'existe pas de contre-exemple connu). Écrire une fonction qui, en appelant la fonction précédente, va vérifier si la conjecture est vraie pour `n` de 1 à `n_max`, où `n_max` est un paramètre de la fonction. 
+3. Le problème de Syracuse affirme que, quel que soit l’entier `n` que l’on choisisse au départ, on finit toujours par arriver à 1 (ce résultat est une *conjecture*, c'est-à-dire qu'il n'a pas été démontré, mais qu'il n'existe pas de contre-exemple connu). Écrire une fonction qui, en appelant la fonction précédente, va vérifier si la conjecture est vraie pour `n` de 1 à `n_max`, où `n_max` est un paramètre de la fonction.
 
 *Remarque*: si tout se passe bien, la fonction doit juste se terminer et renvoyer `True` par exemple. Sinon, c’est qu’on sera entré dans une boucle infinie.
 
@@ -147,7 +102,7 @@ print(tempsVolListe(100))
 
 ## 3. Carré magique
 
-*Définition* extraite de [l'article Wikipedia sur le carré magique](https://fr.wikipedia.org/wiki/Carr%C3%A9_magique_(math%C3%A9matiques)): en mathématiques, un carré magique d’ordre $n$ est composé de $n^2$ entiers strictement positifs, écrits sous la forme d’un tableau carré. Ces nombres sont disposés de sorte que leurs sommes sur chaque rangée, sur chaque colonne et sur chaque diagonale principale soient égales. On nomme alors *constante magique* la valeur de ces sommes. 
+*Définition* extraite de [l'article Wikipedia sur le carré magique](https://fr.wikipedia.org/wiki/Carr%C3%A9_magique_(math%C3%A9matiques)): en mathématiques, un carré magique d’ordre $n$ est composé de $n^2$ entiers strictement positifs, écrits sous la forme d’un tableau carré. Ces nombres sont disposés de sorte que leurs sommes sur chaque rangée, sur chaque colonne et sur chaque diagonale principale soient égales. On nomme alors *constante magique* la valeur de ces sommes.
 
 Un exemple de carré magique:
 
@@ -159,7 +114,7 @@ Les questions qui suivent doivent être traitées dans un script, qui peut s'app
 
 2. Créer une liste à deux dimensions affectée à  la variable `carre_mag` contenant ce carré magique.
 
-3. Créer une deuxième liste affectée à la variable `carre_pas_mag` qui ne soit pas magique à partir du carré magique en changeant le 3 en 7. 
+3. Créer une deuxième liste affectée à la variable `carre_pas_mag` qui ne soit pas magique à partir du carré magique en changeant le 3 en 7.
 
 4. Créer une fonction qui affiche la liste comme un carré.
 
@@ -228,7 +183,7 @@ print(estCarreMagique(carre_pas_mag))
 
 ```python
 def estNormal(carre):
-    """ Retourne True si contient toutes les valeurs de 1 à n^2 où n est la taille 
+    """ Retourne True si contient toutes les valeurs de 1 à n^2 où n est la taille
         du carré, et False sinon """
     pass
 
