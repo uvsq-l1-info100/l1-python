@@ -4,7 +4,7 @@
 
 ## 1. Débuts avec les listes
 
-Dans cette partie, il faut écrire les réponses directement dans le notebook. En plus du cours, n'hésitez pas à consulter la documentation (tutoriel) Python sur les listes [ici (introduction aux listes)](https://docs.python.org/fr/3.6/tutorial/introduction.html#lists) et [ici (complément sur les listes)] (https://docs.python.org/fr/3/tutorial/datastructures.html#more-on-lists).
+ En plus du cours, n'hésitez pas à consulter la documentation (tutoriel) Python sur les listes [ici (introduction aux listes)](https://docs.python.org/fr/3.6/tutorial/introduction.html#lists) et [ici (complément sur les listes)] (https://docs.python.org/fr/3/tutorial/datastructures.html#more-on-lists).
 
 1. Créer la liste `3, 5, 10`, l'affecter à une variable, puis l'afficher.
 
@@ -28,16 +28,10 @@ Dans cette partie, il faut écrire les réponses directement dans le notebook. E
 7. A partir de la liste choisie au hasard, créer une liste qui contient les éléments pairs et une deuxième liste qui contient les éléments impairs.
 
 
-8. Trier la liste choisie au hasard par ordre croissant en modifiant la liste.
+8. Créer la liste des entiers de 1 jusqu'à 52. Ces entiers représentent les cartes d'un paquet de 52 cartes.
 
 
-9. Supprimer le plus petit et le plus grand élément de la liste triée.
-
-
-10. Créer la liste des entiers de 1 jusqu'à 52. Ces entiers représentent les cartes d'un paquet de 52 cartes.
-
-
-11. Couper le jeu de carte revient à choisir un indice `i` entre 0 et 51, et à passer toutes les cartes allant des indices 0 à i-1 à la suite des cartes qui vont des indices i à 51. Ecrire le code qui effectue une coupe choisie au hasard.
+9. Couper le jeu de carte revient à choisir un indice `i` entre 0 et 51, et à passer toutes les cartes allant des indices 0 à i-1 à la suite des cartes qui vont des indices i à 51. Ecrire le code qui effectue une coupe choisie au hasard.
 ---
 
 ## 2. Problème de Syracuse
@@ -46,7 +40,7 @@ Cette partie est à traiter dans un script que vous pouvez appeler, par exemple,
 
 En partant d'un entier `n` de départ, on définit une suite d'entiers en obtenant chaque nouveau terme à partir du précédent soit en le divisant par 2 s'il est pair, soit en le multipliant par 3 et en ajoutant 1 s'il est impair.
 
-1. Sans écrire de programme, calculer les premières valeurs de la suite en chosissant `n = 3`.
+1. Sans écrire de programme, calculer les premières valeurs de la suite en choisissant `n = 3`.
 
 2. Ecrire la fonction qui, à partir d'un entier initial, renvoie la liste des valeurs successives jusqu'à ce que la valeur `1` soit atteinte (le dernier élément de la liste est donc toujours 1).
 
