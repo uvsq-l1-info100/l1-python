@@ -44,7 +44,7 @@ print("Les mots communs sont :", listeMotsCommuns)
 
 ## 2. Ecrire un programme plus complexe
 
-###1. Jeu Scrabble simplifié
+### 1. Jeu Scrabble simplifié
 
 En *Scrabble* le tirage des 7 lettres est dit *valide* quand celui-ci comporte au moins 2 voyelles.
 
@@ -62,18 +62,17 @@ On suppose qu'on a un sac constritué de ces 8 lettres dans les quantités suiva
 ### 2. Jeu de morpion
 
 Le jeux de morpion (ou tic-tac-toe) se joue généralement sur une grille de 3*3 cases
-ou de 5*5 cases.Écrire un programme demandant aux joueurs la dimension de la grille sur laquelle ils veulent
+ou de 5*5 cases. Écrire un programme demandant aux joueurs la dimension de la grille sur laquelle ils veulent
 jouer, et leur permettant de faire une partie. Le gagnant est le joueur alignant un symbole identique (’X’ ou ’O’) sur une ligne, sur une colonne ou sur une diagonale.
 
-  — Initialisez une grille vide
+   * Initialisez une grille vide
 
-  — Écrire le code permettant à un joueur de choisir sur quelle ligne et quelle colonne il souhaite
+   * Écrire le code permettant à un joueur de choisir sur quelle ligne et quelle colonne il souhaite
   jouer
 
-  — Écrire des fonctions permettant de savoir si une ligne, une colonne, la 1ère diagonale et la
+   * Écrire des fonctions permettant de savoir si une ligne, une colonne, la 1ère diagonale et la
   2ème diagonale sont gagnantes
 
-  — Rassembler le tout pour permettre à 2 joueurs de faire une partie, avec une interface raison-
-  nablement conviviale.
+   * Rassembler le tout pour permettre à 2 joueurs de faire une partie, avec une interface raisonnablement conviviale.
 
 Une attention particulière sera portée aux possibles eﬀets de bords (débordement de grille, deux coups sur la même case, etc...)
