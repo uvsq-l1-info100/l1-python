@@ -76,7 +76,7 @@ Norcam : 12567, El Nep 5678, Fachon : 3456
 
 ## 2. Ecrire un programme plus complexe
 
-Pour cette partie, vous devez "découper" chaque programme en plusieurs fonctions. Avant de commencer à coder, vérifier avec votre chargé de TD que votre
+Pour cette partie, vous devez "découper" chaque programme en plusieurs fonctions. Avant de commencer à coder, vérifiez avec votre chargé de TD que votre
 choix de fonctions est correct.
 
 
@@ -108,11 +108,15 @@ En entrée
 one two one two three two four three
 ```
 
+En sortie:
+
 ```python
 0 0 1 1 0 2 0 1
 ```
 
 Dans un deuxième temps vous afficherez les mots et leur fréquence en suivant leur ordre d'apparition dans un dictionnaire:
+
+En sortie: 
 
 ```python
 four : 1
