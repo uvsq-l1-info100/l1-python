@@ -3,7 +3,7 @@
 
 ## 1. Revoir les notions vues en cours
 
-1. Étant donnés deux entiers entrés au clavier - le nombre de lignes *m* et de colonnes *n* d’une liste 2D *m×n* - suivis de la saisie de *m* lignes de *n* entiers, puis de deux entiers non négatifs *i* et *j* plus petits que *n*, échanger les colonnes *i* et ** de la liste 2D et afficher le résultat.
+1. Étant donnés deux entiers entrés au clavier - le nombre de lignes *m* et de colonnes *n* d’une liste 2D *m×n* - suivis de la saisie de *m* lignes de *n* entiers, puis de deux entiers non négatifs *i* et *j* plus petits que *n*, échanger les colonnes *i* et *j* de la liste 2D et afficher le résultat.
 
 
 2.  Étant donné un entier *n* entré au clavier, créer et afficher une liste 2D de taille n×n suivant les règles ci-dessous :
@@ -116,7 +116,7 @@ En sortie:
 
 Dans un deuxième temps vous afficherez les mots et leur fréquence en suivant leur ordre d'apparition dans un dictionnaire:
 
-En sortie: 
+En sortie:
 
 ```python
 four : 1
