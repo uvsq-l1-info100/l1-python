@@ -3,7 +3,7 @@
 
 ## 1. Revoir les notions vues en cours
 
-1. Étant donnés deux entiers entrés au clavier - le nombre de lignes *m* et de colonnes *n* d’une liste 2D *m×n* - suivis de la saisie de *m* lignes de *n* entiers, puis de deux entiers non négatifs *i* et *j* plus petits que *n*, échanger les colonnes *i* et *j* de la liste 2D et afficher le résultat.
+1. Étant donnés deux entiers entrés au clavier - le nombre de lignes *m* et de colonnes *n* d’une liste 2D *m×n* - suivis de deux entiers non négatifs *i* et *j* plus petits que *n*, échanger les colonnes *i* et *j* de la liste 2D et afficher le résultat.
 
 
 2.  Étant donné un entier *n* entré au clavier, créer et afficher une liste 2D de taille n×n suivant les règles ci-dessous :
@@ -56,7 +56,7 @@ Exemple de sortie
 2
 ```
 
-7. Nous souhaitons écrire une application qui prend en entrée les résultats d'une election présidentielle par région et qui doit comptabiliser les votes totales et le gagnant. Les résultats par région sont rentrés au fur et à mesure par l'utilisateur. Vous devez mettre à jour les résultats par candidat en utilisant la structure de données la plus adaptée parmi celles vues en cours.
+7. Nous souhaitons écrire une application qui prend en entrée les résultats d'une élection présidentielle par région et qui doit comptabiliser les votes totales et le gagnant. Les résultats par région sont rentrés au fur et à mesure par l'utilisateur. Vous devez mettre à jour les résultats par candidat en utilisant la structure de données la plus adaptée parmi celles vues en cours.
 
 Exemple d'entrée
 
