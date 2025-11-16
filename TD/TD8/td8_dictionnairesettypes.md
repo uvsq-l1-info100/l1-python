@@ -24,14 +24,10 @@ Une fois l'outil installé, vous pouvez l'utiliser depuis Visual Code Studio en 
 Le double hachage est l’une des meilleures méthodes connues pour l’adressage ouvert.  
 Il utilise une fonction de hachage de la forme :
 
-\[
-h : \mathbb{N} \times \mathbb{N} \longrightarrow [0, m-1]
-\]
-\[
-(k, i) \longmapsto (h_1(k) + i \times h_2(k)) \mod m
-\]
+$h : \mathbb{N} \times \mathbb{N} \longrightarrow [0, m-1]$
+$(k, i) \longmapsto (h_1(k) + i \times h_2(k)) \mod m$
 
-où \(h_1\) et \(h_2\) sont des fonctions de hachage.  
+où $h_1$ et $h_2$ sont des fonctions de hachage.  
 La variable \(i\) prend les valeurs suivantes :
 
 - Par défaut, \(i = 0\).
@@ -41,10 +37,10 @@ La variable \(i\) prend les valeurs suivantes :
 ---
 ##Q1
 
-Programmez les fonctions suivantes en utilisant une seule ligne de code (fonctions lambda)
+Programmez les fonctions suivantes en utilisant une seule ligne de code, en utilisant des fonctions lambda:
 
-- $\(h_1(k) = k \mod 13\)$
-- $\(h_2(k) = 1 + (k \mod 12)\)$
+- $h_1(k) = k \mod 13$
+- $h_2(k) = 1 + (k \mod 12)$
 
 ---
 
