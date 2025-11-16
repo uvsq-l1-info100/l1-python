@@ -43,8 +43,8 @@ La variable \(i\) prend les valeurs suivantes :
 
 Programmez les fonctions suivantes en utilisant une seule ligne de code (fonctions lambda)
 
-- \(h_1(k) = k \mod 13\)
-- \(h_2(k) = 1 + (k \mod 12)\)
+- $\(h_1(k) = k \mod 13\)$
+- $\(h_2(k) = 1 + (k \mod 12)\)$
 
 ---
 
