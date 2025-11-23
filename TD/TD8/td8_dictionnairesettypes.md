@@ -21,8 +21,8 @@ Une fois l'outil installé, vous pouvez l'utiliser depuis Visual Code Studio en 
 
 ## Exercice n°1 — Double hachage
 
-Le double hachage est l’une des meilleures méthodes connues pour l’adressage ouvert.  
-Il utilise une fonction de hachage de la forme :
+Dans cet exercice nous utiliserons le double hachage pour calculer les clés d'un dictionnaire dans lequel les valeurs sont des entiers.
+Cette méthode utilise une fonction de hachage de la forme :
 
 $h : \mathbb{N} \times \mathbb{N} \longrightarrow [0, m-1]$
 
@@ -42,14 +42,14 @@ La variable *i* prend les valeurs suivantes :
 
 
 2. Proposer une fonction en **Python** qui prend en argument une valeur `c` (entier) et une table de taille maximale $m$, et renvoie la valeur de `h(c)`.
-Pour commencer, tester votre fonction sur la valeur *22*, un dictionnaire vide et une taille *m=13*. 
+Pour commencer, tester votre fonction sur la valeur *22*, un dictionnaire vide et une taille *m=13*.
 
 3. Insérer les valeurs :  
 **5, 28, 19, 15, 20, 33, 12, 17, 10**  
 dans le dictionnaire en calculant les clés avec les fonctions de l'exercice précédent.
 
 
-4. Dans un fichier part, reprendre l'exercice et réécrire toutes les fonctions en rajoutant les annotation de type. A chaque exécution, Testez votre code avec mypy.
+4. Dans un fichier part, reprendre l'exercice et réécrire toutes les fonctions en rajoutant les annotation de type. A chaque exécution, testez votre code avec mypy.
 
 
 ## Exercice n°2 — Problème de Syracuse
