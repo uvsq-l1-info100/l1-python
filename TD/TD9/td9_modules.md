@@ -20,7 +20,7 @@ On lance deux dés non truqués à 6 faces numérotées de 1 à 6. On s'intéres
 2. Modifier le programme pour que l'utilisateur puisse choisir le nombre de lancers.
 
 
-## Exercice 3: le module time
+## Exercice 3: Le module time
 
 Pour cette exercice, il faudra consulter la [documentation du module time](https://docs.python.org/3/library/time.html).
 Écrire un programme permettant d'afficher l'heure courante, et d'indiquer le nombre de minutes passées depuis le début du TP.
