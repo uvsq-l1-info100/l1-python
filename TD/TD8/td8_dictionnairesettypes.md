@@ -22,13 +22,14 @@ Une fois l'outil installé, vous pouvez l'utiliser depuis Visual Code Studio en 
 ## Exercice n°1 — Double hachage
 
 Dans cet exercice nous utiliserons le double hachage pour calculer les clés d'un dictionnaire dans lequel les valeurs sont des entiers.
-Cette méthode utilise une fonction de hachage de la forme :
+Cette méthode utilise une fonction dite de hachage de la forme :
 
 $h : \mathbb{N} \times \mathbb{N} \longrightarrow [0, m-1]$
 
 $(k, i) \longmapsto h_1(k) + i \times h_2(k) \mod m$
 
-où $h_1$ et $h_2$ sont des fonctions de hachage.  
+où $h_1$ et $h_2$ sont à leur tour des fonctions dites de hachage.  
+
 La variable *i* prend les valeurs suivantes :
 
 - Par défaut, *i = 0*.
@@ -41,8 +42,7 @@ La variable *i* prend les valeurs suivantes :
 - $h_2(k) = 1 + (k \mod 12)$
 
 
-2. Proposer une fonction en **Python** qui prend en argument une valeur `c` (entier) et une table de taille maximale $m$, et renvoie la valeur de `h(c)`.
-Pour commencer, tester votre fonction sur la valeur *22*, un dictionnaire vide et une taille *m=13*.
+2. Proposer une fonction en **Python** qui prend en argument une valeur `c` (entier) et une table de taille maximale $m$, et renvoie la valeur de `h(c)` (la clé de `c` dans le dictionnaire). Pour commencer, tester votre fonction sur la valeur *22*, un dictionnaire vide et une taille *m=13*.
 
 3. Insérer les valeurs :  
 **5, 28, 19, 15, 20, 33, 12, 17, 10**  
