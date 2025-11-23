@@ -40,13 +40,16 @@ La variable *i* prend les valeurs suivantes :
 - $h_1(k) = k \mod 13$
 - $h_2(k) = 1 + (k \mod 12)$
 
-2. Insérer les clés :  
+
+2. Proposer une fonction en **Python** qui prend en argument une valeur `c` (entier) et une table de taille maximale $m$, et renvoie la valeur de `h(c)`.
+Pour commencer, tester votre fonction sur la valeur *22*, un dictionnaire vide et une taille *m=13*. 
+
+3. Insérer les valeurs :  
 **5, 28, 19, 15, 20, 33, 12, 17, 10**  
-dans un tableau de taille **m = 13** avec les fonctions de l'exercice précédent.
+dans le dictionnaire en calculant les clés avec les fonctions de l'exercice précédent.
 
-3. Proposer une fonction en **Python** qui prend en argument une clé `c` (entier) et la taille `m` de la table, et renvoie la valeur de `h(c)`.
 
-4. Dans un fichier part, reprendre l'exercice et reécrire toutes les fonctions en rajoutant les annotation de type. A chaque exécution, Testez votre code avec mypy.
+4. Dans un fichier part, reprendre l'exercice et réécrire toutes les fonctions en rajoutant les annotation de type. A chaque exécution, Testez votre code avec mypy.
 
 
 ## Exercice n°2 — Problème de Syracuse
