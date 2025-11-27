@@ -1,0 +1,124 @@
+import random
+import time
+
+score = 0
+nb_questions = 0
+
+print('Bienvenue dans le test de soustraction !')
+
+temps_de_départ = time.time()
+
+while True:
+    number1 = random.randint(0, 9)
+    number2 = random.randint(0, 9)
+    if number1 < number2:
+        number1, number2 = number2, number1
+
+    reponse = int(input(f'Question {nb_questions + 1}: Combien font {number1} - {number2} ? '))
+    if reponse == number1 - number2:
+        print('Correct !')
+        score += 1
+    else:
+        print(f'Faux ! La bonne réponse est {number1 - number2}.')
+#exercice-2
+    nb_questions += 1
+    continuer = input("Voulez-vous une autre question ? (Y pour continuer) : ")
+    if continuer.upper() != 'Y':
+        break
+#exercice-2 fin 
+
+temps_de_fin = time.time()
+temps_ecoule = temps_de_fin - temps_de_départ
+
+print(f'\nVous avez obtenu {score} sur {nb_questions}.')
+print(f'Temps écoulé : {temps_ecoule:.2f} secondes.')
+
+
+
+print("\nExercice 3 : Nombres divisibles par 5 et 6 de 100 à 1000 :")
+count = 0
+for i in range(100, 1001):
+    if i % 5 == 0 and i % 6 == 0:
+        print(i, end=' ')
+        count += 1
+        if count % 10 == 0:
+            print()
+
+
+
+import random
+
+print("\nExercice 4 : Jeu ciseaux-pierre-papier")
+gagne_user = 0
+gagne_ordi = 0
+options = ["ciseaux", "pierre", "papier"]
+
+while gagne_user < 3 and gagne_ordi < 3:
+    ordi = random.randint(0, 2)
+    user = int(input("Entrez 0 (ciseaux), 1 (pierre), ou 2 (papier) : "))
+    print(f"L'ordinateur a choisi {options[ordi]}")
+    if user == ordi:
+        print("Match nul !")
+    elif (user == 0 and ordi == 2) or (user == 1 and ordi == 0) or (user == 2 and ordi == 1):
+        print("Vous gagnez !")
+        gagne_user += 1
+    else:
+        print("Vous perdez !")
+        gagne_ordi += 1
+    print(f"Score - Vous: {gagne_user}, Ordinateur: {gagne_ordi}")
+
+if gagne_user > gagne_ordi:
+    print("Bravo, vous avez gagné la partie !")
+else:
+    print("L'ordinateur a gagné la partie.")
+
+
+
+
+print("\nExercice 5 : Vérification de mot de passe (sans re)")
+
+mot_de_passe = input("Entrez un mot de passe : ")
+valide = True
+
+if len(mot_de_passe) < 6 or len(mot_de_passe) > 16:
+    valide = False
+if not any(c.islower() for c in mot_de_passe):
+    valide = False
+if not any(c.isupper() for c in mot_de_passe):
+    valide = False
+if not any(c.isdigit() for c in mot_de_passe):
+    valide = False
+if not any(c in "$#@" for c in mot_de_passe):
+    valide = False
+
+if valide:
+    print("Mot de passe valide.")
+else:
+    print("Mot de passe invalide.")
+
+
+
+
+print("\nExercice 6 : Chiffrement par décalage")
+
+# Chiffrement
+texte = input("Entrez le texte à chiffrer (minuscules uniquement) : ")
+decalage = int(input("Entrez le décalage (0-25) : "))
+chiffre = ""
+for c in texte:
+    if 'a' <= c <= 'z':
+        chiffre += chr((ord(c) - ord('a') + decalage) % 26 + ord('a'))
+    else:
+        chiffre += c
+print("Texte chiffré :", chiffre)
+
+# Déchiffrement
+texte_chiffre = input("Entrez le texte à déchiffrer (minuscules uniquement) : ")
+decalage_dechiffre = int(input("Entrez le décalage utilisé (0-25) : "))
+dechiffre = ""
+for c in texte_chiffre:
+    if 'a' <= c <= 'z':
+        dechiffre += chr((ord(c) - ord('a') - decalage_dechiffre) % 26 + ord('a'))
+    else:
+        dechiffre += c
+print("Texte déchiffré :", dechiffre)
