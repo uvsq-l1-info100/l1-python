@@ -1,6 +1,6 @@
 ## 1. Premiers exercices avec les structures itératives
 
-**Exercice 3 :** Suivi de consommation d'eau
+**Exercice 1 :** Suivi de consommation d'eau
 
 Une famille souhaite suivre sa consommation d'eau pendant plusieurs jours.
 Le programme demande à l'utilisateur de saisir le nombre de jours à analyser.Pour chaque jour, l'utilisateur saisit la quantité d'eau consommée en litres.
@@ -19,9 +19,13 @@ Le programme doit ensuite déterminer :
 Par exemple, pour 5 jours :
 
 Jour 1 : 120
+
 Jour 2 : 180
+
 Jour 3 : 140
+
 Jour 4 : 200
+
 Jour 5 : 160
 
 
