@@ -12,37 +12,28 @@ Le programme doit ensuite déterminer :
 - le nombre de jours où la consommation a dépassé **150 litres** ;
 - la plus grande consommation enregistrée.
 
-### Partie 1
+1. Écrire une solution en utilisant une boucle `for`. Le programme doit fonctionner pour un nombre de jours quelconque. Par exemple, pour 5 jours :
 
-Écrire une solution en utilisant une boucle `for`. Le programme doit fonctionner pour un nombre de jours quelconque.
-
-Par exemple, pour 5 jours :
-
+"""
 Jour 1 : 120
-
 Jour 2 : 180
-
 Jour 3 : 140
-
 Jour 4 : 200
-
 Jour 5 : 160
-
+"""
 
 Le programme doit afficher :
 
+"""
 Consommation totale : 800 litres
 Consommation moyenne : 160 litres
 Nombre de jours dépassant 150 litres : 3
 Plus grande consommation : 200 litres
+"""
 
-### Partie 2
+2. Écrire une deuxième solution permettant d'obtenir les mêmes résultats, mais en utilisant une boucle `while` à la place de la boucle `for`.
 
-Écrire une deuxième solution permettant d'obtenir les mêmes résultats, mais en utilisant une boucle `while` à la place de la boucle `for`.
-
-### Partie 3
-
-Modifier le programme afin de signaler également si la consommation moyenne de la famille est :
+3. Modifier le programme afin de signaler également si la consommation moyenne de la famille est :
 
 - inférieure ou égale à 120 litres : **« Consommation faible »** ;
 - supérieure à 120 litres et inférieure ou égale à 150 litres : **« Consommation normale »** ;
@@ -53,32 +44,24 @@ Faire les calculs à la main pour l'exemple avant d'écrire le programme.
 
 **Exercice 2 :**: Gestion d'un distributeur de billets
 
-On souhaite simuler le fonctionnement simplifié d'un distributeur de billets.
-
-Le distributeur dispose initialement de :
+On souhaite simuler le fonctionnement simplifié d'un distributeur de billets.Le distributeur dispose initialement de :
 
 - 100 billets de 10 € ;
 - 50 billets de 20 € ;
 - 30 billets de 50 €.
 
-Un client peut effectuer plusieurs retraits successifs.
+Un client peut effectuer plusieurs retraits successifs. Pour chaque retrait, le programme demande de saisir la somme souhaitée.
 
-Pour chaque retrait, le programme demande la somme souhaitée.
-
-La somme doit respecter les règles suivantes :
+La somme saisie doit respecter les règles suivantes :
 
 - elle doit être strictement positive ;
 - elle doit être un multiple de 10 ;
 - le retrait ne peut pas dépasser 500 €.
 
-Si la somme demandée n'est pas valide, le programme affiche un message d'erreur et demande une nouvelle somme.
-
-Lorsque la somme est valide, le distributeur doit déterminer combien de billets de 50 €, de 20 € et de 10 € sont nécessaires pour constituer la somme demandée.
+Si la somme demandée n'est pas valide, le programme affiche un message d'erreur et demande une nouvelle somme. Lorsque la somme est valide, le distributeur doit déterminer combien de billets de 50 €, de 20 € et de 10 € sont nécessaires pour constituer la somme demandée.
 
 Le programme doit également vérifier que le distributeur possède suffisamment de billets.
-
 Après chaque retrait accepté, les quantités de billets disponibles sont mises à jour.
-
 Le client peut ensuite effectuer un nouveau retrait.
 
 Lorsqu'il saisit `0`, le programme s'arrête et affiche :
@@ -110,23 +93,23 @@ Montant du retrait : 0
 Nombre de retraits : 2
 Montant total distribué : 190 €
 
-Question de réflexion :
+1. Avant d'écrire le programme, déterminer à la main les billets utilisés pour les retraits suivants :
 
-Avant d'écrire le programme, déterminer à la main les billets utilisés pour les retraits suivants :
-
+"""
 40 €
 80 €
 130 €
 270 €
 500 €
+"""
 
-Puis déterminer l'état du distributeur après avoir effectué successivement :
+Ensuite déterminer l'état du distributeur après avoir effectué successivement :
 
+"""
 80 €
 130 €
 50 €
 0
-
 """
 
 **Exercice 3 :** Supposons que vous souhaitiez développer un programme permettant à un élève de première année de s'entraîner à la soustraction. Le programme génère de manière aléatoire deux entiers d'un seul chiffre, number1 et number2, avec number1 >= number2, et pose à l'élève une question telle que "Quel est 9 - 2 ?" Après que l'élève ait saisi la réponse, le programme affiche un message indiquant si elle est correcte. Ecrire un programme qui génère cinq questions et, après qu'un élève y ait répondu, rapporte le nombre de réponses correctes. Le programme affiche également le temps passé sur le test, comme le montre l'exécution d'exemple. Pour mesurer le temps, il faut importer la bibliothèque *Time* (exemple d'utilisation: temps_de_depart = time.time()).
@@ -134,7 +117,6 @@ Puis déterminer l'état du distributeur après avoir effectué successivement :
 
 
 **Exercice 2 :**  L'exemple précédent exécute la boucle cinq fois. Si vous souhaitez que l'utilisateur décide s'il souhaite prendre une autre question, vous pouvez proposer une confirmation à l'utilisateur (en tapant 'Y' pour continuer).
-
 
 
 **Exercice 3 :**  (Trouver les nombres divisibles par 5 et 6) Écrivez un programme qui affiche, dix nombres par ligne, tous les nombres de 100 à 1 000 qui sont divisibles par 5 et 6. Les nombres sont séparés par exactement un espace.
