@@ -11,11 +11,11 @@ Le programme doit ensuite déterminer :
 
 1. Écrire une solution en utilisant une boucle `for`. Le programme doit fonctionner pour un nombre de jours quelconque. Par exemple, pour 5 jours :
 
-    Jour 1 : 120
-    Jour 2 : 180
-    Jour 3 : 140
-    Jour 4 : 200
-    Jour 5 : 160
+        Jour 1 : 120
+        Jour 2 : 180
+        Jour 3 : 140
+        Jour 4 : 200
+        Jour 5 : 160
     
 
 Le programme doit afficher :
@@ -36,9 +36,7 @@ Faire les calculs sur papier pour l'exemple avant d'écrire le programme.
 - supérieure à 150 litres : **« Consommation élevée »**.
 
 
-**Exercice 2 :**: Gestion d'un distributeur de billets
-
-On souhaite simuler le fonctionnement simplifié d'un distributeur de billets.Le distributeur dispose initialement de :
+**Exercice 2 :** (Gestion d'un distributeur de billets) On souhaite simuler le fonctionnement simplifié d'un distributeur de billets.Le distributeur dispose initialement de :
 
 - 100 billets de 10 € ;
 - 50 billets de 20 € ;
@@ -103,19 +101,20 @@ Exemple de déroulement :
 
 3. Donner le code de ce programme. 
 
+**Exercice 3 :** Réalisez un programme qui calcule et affiche les entiers n!, pour tous les entiers n plus petits qu'un entier N donné. Déroulez d'abord sur papier le fonctionnement de votre programme, pour N=5. 
 
-**Exercice 3 :** Supposons que vous souhaitiez développer un programme permettant à un élève de première année de s'entraîner à la soustraction. Le programme génère de manière aléatoire deux entiers d'un seul chiffre, number1 et number2, avec number1 >= number2, et pose à l'élève une question telle que "Quel est 9 - 2 ?" Après que l'élève ait saisi la réponse, le programme affiche un message indiquant si elle est correcte. Ecrire un programme qui génère cinq questions et, après qu'un élève y ait répondu, rapporte le nombre de réponses correctes. Le programme affiche également le temps passé sur le test, comme le montre l'exécution d'exemple. Pour mesurer le temps, il faut importer la bibliothèque *Time* (exemple d'utilisation: temps_de_depart = time.time()).
-
-
-
-**Exercice 2 :**  L'exemple précédent exécute la boucle cinq fois. Si vous souhaitez que l'utilisateur décide s'il souhaite prendre une autre question, vous pouvez proposer une confirmation à l'utilisateur (en tapant 'Y' pour continuer).
-
-
-**Exercice 3 :**  (Trouver les nombres divisibles par 5 et 6) Écrivez un programme qui affiche, dix nombres par ligne, tous les nombres de 100 à 1 000 qui sont divisibles par 5 et 6. Les nombres sont séparés par exactement un espace.
+**Exercice 4 :** Supposons que vous souhaitiez développer un programme permettant à un élève de première année de s'entraîner à la soustraction. Le programme génère de manière aléatoire deux entiers d'un seul chiffre, number1 et number2, avec number1 >= number2, et pose à l'élève une question telle que "Quel est 9 - 2 ?" Après que l'élève ait saisi la réponse, le programme affiche un message indiquant si elle est correcte. Ecrire un programme qui génère cinq questions et, après qu'un élève y ait répondu, rapporte le nombre de réponses correctes. Le programme affiche également le temps passé sur le test, comme le montre l'exécution d'exemple. Pour mesurer le temps, il faut importer la bibliothèque *Time* (exemple d'utilisation: temps_de_depart = time.time()).
 
 
 
-**Exercice 4 :**  Écrivez un programme qui joue au populaire jeu ciseaux-pierre-papier. (Un ciseau peut couper du papier, une pierre peut écraser un ciseau, et du papier peut envelopper une pierre.) Le programme génère aléatoirement un nombre 0, 1 ou 2, représentant respectivement ciseaux, pierre et papier. Ensuite, le programme demande à l'utilisateur d'entrer un nombre 0, 1 ou 2, puis affiche un message indiquant si l'utilisateur gagne, perd ou obtient un match nul par rapport à l'ordinateur. Le programme  permet à l'utilisateur de jouer en continu jusqu'à ce que l'utilisateur ou l'ordinateur gagne plus de deux fois.
+**Exercice 5 :**  L'exemple précédent exécute la boucle cinq fois. Si vous souhaitez que l'utilisateur décide s'il souhaite prendre une autre question, vous pouvez proposer une confirmation à l'utilisateur (en tapant 'Y' pour continuer).
+
+
+**Exercice 6 :**  (Trouver les nombres divisibles par 5 et 6) Écrivez un programme qui affiche, dix nombres par ligne, tous les nombres de 100 à 1 000 qui sont divisibles par 5 et 6. Les nombres sont séparés par exactement un espace.
+
+
+
+**Exercice 7 :**  Écrivez un programme qui joue au populaire jeu ciseaux-pierre-papier. (Un ciseau peut couper du papier, une pierre peut écraser un ciseau, et du papier peut envelopper une pierre.) Le programme génère aléatoirement un nombre 0, 1 ou 2, représentant respectivement ciseaux, pierre et papier. Ensuite, le programme demande à l'utilisateur d'entrer un nombre 0, 1 ou 2, puis affiche un message indiquant si l'utilisateur gagne, perd ou obtient un match nul par rapport à l'ordinateur. Le programme  permet à l'utilisateur de jouer en continu jusqu'à ce que l'utilisateur ou l'ordinateur gagne plus de deux fois.
 
 
 
