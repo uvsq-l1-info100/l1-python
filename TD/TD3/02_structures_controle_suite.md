@@ -3,7 +3,7 @@
 **Exercice 1 :** Suivi de consommation d'eau
 
 Une famille souhaite suivre sa consommation d'eau pendant plusieurs jours.
-Le programme demande à l'utilisateur de saisir le nombre de jours à analyser.Pour chaque jour, l'utilisateur saisit la quantité d'eau consommée en litres.
+Le programme demande à l'utilisateur de saisir le nombre de jours à analyser. Pour chaque jour, l'utilisateur saisit la quantité d'eau consommée en litres.
 
 Le programme doit ensuite déterminer :
 
@@ -72,45 +72,42 @@ Lorsqu'il saisit `0`, le programme s'arrête et affiche :
 
 Exemple de déroulement :
 
-Montant du retrait : 120
+    Montant du retrait : 120
 
-Retrait accepté.
-Billets distribués :
-2 billet(s) de 50 €
-1 billet(s) de 20 €
-0 billet(s) de 10 €
+    Retrait accepté.
+    Billets distribués :
+    2 billet(s) de 50 €
+    1 billet(s) de 20 €
+    0 billet(s) de 10 €
 
-Montant du retrait : 70
+    Montant du retrait : 70
 
-Retrait accepté.
-Billets distribués :
-1 billet(s) de 50 €
-1 billet(s) de 20 €
-0 billet(s) de 10 €
+    Retrait accepté.
+    Billets distribués :
+    1 billet(s) de 50 €
+    1 billet(s) de 20 €
+    0 billet(s) de 10 €
 
-Montant du retrait : 0
+    Montant du retrait : 0
 
-Nombre de retraits : 2
-Montant total distribué : 190 €
+    Nombre de retraits : 2
+    Montant total distribué : 190 €
 
 1. Avant d'écrire le programme, déterminer à la main les billets utilisés pour les retraits suivants :
 
-"""
-40 €
-80 €
-130 €
-270 €
-500 €
-"""
+    40 €
+    80 €
+    130 €
+    270 €
+    500 €
+    
 
-Ensuite déterminer l'état du distributeur après avoir effectué successivement :
+2. Ensuite déterminer l'état du distributeur après avoir effectué successivement :
 
-"""
-80 €
-130 €
-50 €
-0
-"""
+    80 €
+    130 €
+    50 €
+    0
 
 **Exercice 3 :** Supposons que vous souhaitiez développer un programme permettant à un élève de première année de s'entraîner à la soustraction. Le programme génère de manière aléatoire deux entiers d'un seul chiffre, number1 et number2, avec number1 >= number2, et pose à l'élève une question telle que "Quel est 9 - 2 ?" Après que l'élève ait saisi la réponse, le programme affiche un message indiquant si elle est correcte. Ecrire un programme qui génère cinq questions et, après qu'un élève y ait répondu, rapporte le nombre de réponses correctes. Le programme affiche également le temps passé sur le test, comme le montre l'exécution d'exemple. Pour mesurer le temps, il faut importer la bibliothèque *Time* (exemple d'utilisation: temps_de_depart = time.time()).
 
