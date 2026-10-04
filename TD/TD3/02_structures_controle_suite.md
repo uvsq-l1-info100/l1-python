@@ -14,22 +14,20 @@ Le programme doit ensuite déterminer :
 
 1. Écrire une solution en utilisant une boucle `for`. Le programme doit fonctionner pour un nombre de jours quelconque. Par exemple, pour 5 jours :
 
-"""
-Jour 1 : 120
-Jour 2 : 180
-Jour 3 : 140
-Jour 4 : 200
-Jour 5 : 160
-"""
+    Jour 1 : 120
+    Jour 2 : 180
+    Jour 3 : 140
+    Jour 4 : 200
+    Jour 5 : 160
+    
 
 Le programme doit afficher :
 
-"""
-Consommation totale : 800 litres
-Consommation moyenne : 160 litres
-Nombre de jours dépassant 150 litres : 3
-Plus grande consommation : 200 litres
-"""
+    Consommation totale : 800 litres
+    Consommation moyenne : 160 litres
+    Nombre de jours dépassant 150 litres : 3
+    Plus grande consommation : 200 litres
+
 
 2. Écrire une deuxième solution permettant d'obtenir les mêmes résultats, mais en utilisant une boucle `while` à la place de la boucle `for`.
 
@@ -93,21 +91,24 @@ Exemple de déroulement :
     Nombre de retraits : 2
     Montant total distribué : 190 €
 
-1. Avant d'écrire le programme, déterminer à la main les billets utilisés pour les retraits suivants :
+1. Avant d'écrire le programme, déterminer sur papier les billets utilisés pour les retraits suivants :
 
-    40 €
-    80 €
-    130 €
-    270 €
-    500 €
+        40 €
+        80 €
+        130 €
+        270 €
+        500 €
     
 
 2. Ensuite déterminer l'état du distributeur après avoir effectué successivement :
 
-    80 €
-    130 €
-    50 €
-    0
+        80 €
+        130 €
+        50 €
+        0
+
+3. Donner le code de ce programme. 
+
 
 **Exercice 3 :** Supposons que vous souhaitiez développer un programme permettant à un élève de première année de s'entraîner à la soustraction. Le programme génère de manière aléatoire deux entiers d'un seul chiffre, number1 et number2, avec number1 >= number2, et pose à l'élève une question telle que "Quel est 9 - 2 ?" Après que l'élève ait saisi la réponse, le programme affiche un message indiquant si elle est correcte. Ecrire un programme qui génère cinq questions et, après qu'un élève y ait répondu, rapporte le nombre de réponses correctes. Le programme affiche également le temps passé sur le test, comme le montre l'exécution d'exemple. Pour mesurer le temps, il faut importer la bibliothèque *Time* (exemple d'utilisation: temps_de_depart = time.time()).
 
