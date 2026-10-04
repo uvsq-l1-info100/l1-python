@@ -1,9 +1,6 @@
-## 1. Premiers exercices avec les structures itératives
+## Structures conditionelles  et  structures itératives
 
-**Exercice 1 :** Suivi de consommation d'eau
-
-Une famille souhaite suivre sa consommation d'eau pendant plusieurs jours.
-Le programme demande à l'utilisateur de saisir le nombre de jours à analyser. Pour chaque jour, l'utilisateur saisit la quantité d'eau consommée en litres.
+**Exercice 1 :** (Suivi de consommation d'eau) Une famille souhaite suivre sa consommation d'eau pendant plusieurs jours. Le programme demande à l'utilisateur de saisir le nombre de jours à analyser. Pour chaque jour, l'utilisateur saisit la quantité d'eau consommée en litres.
 
 Le programme doit ensuite déterminer :
 
@@ -28,16 +25,15 @@ Le programme doit afficher :
     Nombre de jours dépassant 150 litres : 3
     Plus grande consommation : 200 litres
 
+Faire les calculs sur papier pour l'exemple avant d'écrire le programme.
 
 2. Écrire une deuxième solution permettant d'obtenir les mêmes résultats, mais en utilisant une boucle `while` à la place de la boucle `for`.
 
-3. Modifier le programme afin de signaler également si la consommation moyenne de la famille est :
+3. Modifier le programme afin d'afficher également si la consommation moyenne de la famille est :
 
 - inférieure ou égale à 120 litres : **« Consommation faible »** ;
 - supérieure à 120 litres et inférieure ou égale à 150 litres : **« Consommation normale »** ;
 - supérieure à 150 litres : **« Consommation élevée »**.
-
-Faire les calculs à la main pour l'exemple avant d'écrire le programme.
 
 
 **Exercice 2 :**: Gestion d'un distributeur de billets
@@ -48,9 +44,7 @@ On souhaite simuler le fonctionnement simplifié d'un distributeur de billets.Le
 - 50 billets de 20 € ;
 - 30 billets de 50 €.
 
-Un client peut effectuer plusieurs retraits successifs. Pour chaque retrait, le programme demande de saisir la somme souhaitée.
-
-La somme saisie doit respecter les règles suivantes :
+Un client peut effectuer plusieurs retraits successifs. Pour chaque retrait, le programme demande à l'utilisateur de saisir la somme souhaitée. La somme saisie doit respecter les règles suivantes :
 
 - elle doit être strictement positive ;
 - elle doit être un multiple de 10 ;
