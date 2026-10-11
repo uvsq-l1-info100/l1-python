@@ -3,8 +3,7 @@
 
 ## Instructions Générales
 
-Les deux premiers exercices seont à corriger au tableau, avec le chargé de TD. Pour trouver les réponses, vous n'avez pas le droit d'utiliser une machine. 
-Les autres exercices seront réalisés en créant un fichier td3.py, que vous éditerez dans VSCode. Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage.
+Les deux exercices suivants sont à corriger au tableau, avec le chargé de TD. Pour trouver les réponses, vous n'avez pas le droit d'utiliser une machine. 
 
 ## Revision sur les structures itératives 
 
@@ -40,7 +39,7 @@ Qu'affichent les  programmes suivants?
     print(a, v1, v2)
     a = mul2(a)
     a = div2(a)
-     print(a)
+    print(a)
   
 
 2.  a = 100
@@ -73,6 +72,8 @@ Qu'affichent les  programmes suivants?
 
 Nous allons créer un petit logiciel de gestion du temps et des dates.
 Pour cela nous aurons besoin de créer un certain nombre de fonctions utilitaires.
+Les exercices suivants seront réalisés en créant un fichier td3.py, que vous éditerez depuis VSCode. Vous respecterez au mieux les règles de bonne pratique en matière d'écriture de code : chaque fonction devra comporter un docstring, des commentaires si nécessaire, et les noms de variables devront être explicites quant à leur usage.
+
 
 Un temps a le format suivant: (jour: int, heure: int, minute: int, seconde: int).
 C'est un tuple de 4 éléments. Par exemple (4, 3, 13, 20) correspond à 4 jours, 3 heures, 13 minutes et 20 secondes.
