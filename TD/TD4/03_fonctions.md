@@ -18,7 +18,7 @@ Qu'affiche ce programme?
 2.  for i in range(5):
         for j in range(5):
             for k in range(5):
-                print("i+j+k")
+                print("i+j+k",i+j+k)
 
 ```
 
